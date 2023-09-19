@@ -10,16 +10,20 @@
 	<!-- the entire body must be written by student -->
 	<h2>Signup Form Car</h2>
   <form method="post">
-       <label for="name" >Name</label>
+       <label for="name" >Name:</label>
 	  <input type="Text" id="name" placeholder="Name" required><br><br>
 	  
-       <label for="email" >Email</label>
-	  <input type="Email" id="email" placeholder="Email" required><br><br>
+       <label for="email" >Email:</label>
+	  <input type="Email" id="email" placeholder="Email" required><br>
 	  
-       <label for="gender_m" >Gender</label>
-	   <input type="Radio" id="gender_m" required>
-	   <input type="Radio" id="gender_f" required ><br><br>
+             <!-- Gender -->
+	   <p>What is your gender?</p>
+       <label for="male" >Male</label>
+	   <input type="Radio" id="male"  name="gender1" value="Male" required>
+	   <label for="female" >Female</label>
+	   <input type="Radio" id="female" name="gender2" value="Female" required ><br><br>
 	  
+           <!-- 	  car brands -->
 	  <label for="cars" >Car Brands</label>
 	  <input type="Select" id="cars" placeholder="--Please choose an option--" required>
 	  <select id="cars" name="cars">
@@ -42,10 +46,11 @@
 		  
 		<input type="Checkbox" id="tos" placeholder="-" required>
 	    <label for="tos">I agree to the TOS</label><br><br>
-
+       <input type="submit" value="Submit">
+  
   </form>
 
-	<button type="submit" value="Submit">Submit</button>
+	
 
 
 	
