@@ -19,18 +19,18 @@
              <!-- Gender -->
 	   <p>What is your gender?</p>
        <label for="male" >Male</label>
-	   <input type="Radio" id="male"  name="gender1" value="Male" required>
+	   <input type="Radio" id="male"  name="gender" value="Male" required>
 	   <label for="female" >Female</label>
-	   <input type="Radio" id="female" name="gender2" value="Female" required ><br><br>
+	   <input type="Radio" id="female" name="gender" value="Female" required ><br><br>
 	  
            <!-- 	  car brands -->
 	  <label for="cars" >Car Brands</label>
-	  <input type="Select" id="cars" placeholder="--Please choose an option--" required>
-	  <select id="cars" name="cars">
-      <option value="volvo">Audi</option>
-      <option value="volvo">BMW</option>
-      <option value="volvo">Mercedes</option>
-	  </select><br><br>
+	  <select type="select" id="cars" name="cars" placeholder="--Please choose an option--" required>
+            <option value="" disabled selected  >--Please choose an option--</option>
+			<option value="audi">Audi</option>
+			<option value="bmw">BMW</option>
+			<option value="mercedes">Mercedes</option>
+	  </select> <br><br>
 
        <label for="age" >Age</label>
 	  <input type="Number" id="age" placeholder="Age" required><br><br>
